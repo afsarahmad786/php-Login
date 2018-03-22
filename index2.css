@@ -1,0 +1,86 @@
+body
+{
+	margin: 0;
+	padding:0;
+	font-family:sans-serif, serif;
+	background: url(https://wallpaperscraft.com/image/triangle_light_blurred_88541_1366x768.jpg);
+}
+.container{
+	width: 100%;
+}
+.login-info
+{
+	height: 600px;
+	width: 80%;
+	background: rgba(0,0,0,.5);
+	margin-left: 10%;
+	margin-top: 40px;
+}
+.left img
+{
+  background-size: cover;
+  box-sizing: border-box;
+  height: 600px;
+  float: left;
+
+}
+.right
+{
+	float: right;
+	margin-right: 100px; 
+}
+p{
+	color: #fff;
+	margin-right: 200px;
+	margin-left: 2px;
+}
+#date{
+	height: 30px;
+	padding-left: 12px;
+	margin-left: 5px;
+	border: grey;
+
+}
+#Year{
+	height: 30px;
+	padding-left: 12px;
+	margin-left: 5px;
+	border: grey;
+
+}	
+#month
+{
+	height: 30px;
+	padding-left: 12px;
+	border: grey;
+}
+input[type="text"],input[type="password"]
+{	
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #fff;
+	height: 25px;
+	background: transparent;
+	cursor: pointer;
+	color: #fff;
+
+}
+input{
+	width: 100%;
+}
+input[type="submit"]
+{
+	height: 40px;
+	width: 100%;
+	background: #000;
+	color: white;
+	border: none;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+input[type="submit"]:hover
+{
+	background: grey;
+	transition: 2s;
+}
+
